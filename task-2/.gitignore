@@ -1,0 +1,35 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment variables
+.env
+
+# Static files
+static/
+
+# Uploaded files
+uploads/
+
+# Compiled JavaScript
+*.js
+
+# Compiled CSS
+*.css
+
+# System files
+.DS_Store
+Thumbs.db
