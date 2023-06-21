@@ -10,9 +10,9 @@
    ```
    docker compose up
    ```
-5. Start the server by running the command:
+5. Start the server by running the command, in another terminal window:
    ```
-   python app
+   python app.py
    ```
    This will launch a Flask server on port 5000.
 6. [Optional] If you prefer to run the server within Docker, uncomment the corresponding code section in the `docker-compose.yml` file. Please note that the image creation may take some time initially, so it was commented out to avoid delays during image building and startup.
