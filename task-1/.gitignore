@@ -15,9 +15,6 @@ env/
 *.log
 *.sqlite
 
-# Environment variables
-.env
-
 # Static files
 static/
 

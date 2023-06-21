@@ -17,11 +17,14 @@
    This will launch a Flask server on port 5000.
 6. [Optional] If you prefer to run the server within Docker, uncomment the corresponding code section in the `docker-compose.yml` file. Please note that the image creation may take some time initially, so it was commented out to avoid delays during image building and startup.
 7. You can access the API using either of the following methods:
+
    - cURL: Use the following command to send a request:
      ```
      curl --location 'localhost:5000/api/v1/query?query=count%20of%20female%20passengerswho%20have%20siblings%20%3F&use_openai=true'
      ```
    - Refer to the `request.http` file in this repository for example requests.
+
+8. In case you want to use openai to generate sql please add you openai api key to the OPENAI-KEY in the .evn file
 
 # What it Does
 
