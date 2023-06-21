@@ -1,2 +1,2 @@
-GET /api/v1/query?query=count of female passengerswho have siblings ?&use_openai=true HTTP/1.1
+GET /api/v1/query?query=count of all male passengers ?&use_openai=false HTTP/1.1
 Host: localhost:5000
