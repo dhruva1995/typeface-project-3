@@ -24,7 +24,7 @@
      ```
    - Refer to the `request.http` file in this repository for example requests.
 
-8. In case you want to use openai to generate sql please add you openai api key to the OPENAI-KEY in the .evn file
+8. In case you want to use openai to generate sql please add your openai api key to the OPENAI-KEY in the .evn file
 
 # What it Does
 
