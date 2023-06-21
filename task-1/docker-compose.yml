@@ -17,12 +17,12 @@ services:
       retries: 10
     volumes:
       - "./dump.sql:/docker-entrypoint-initdb.d/1.sql"
-  titanic-flask-app:
-    container_name: titanic-flask-app
-    image: titanic-flask-app
-    build: .
-    ports:
-      - 5000:5000
-    depends_on:
-      titanic_db:
-        condition: service_healthy
+  # titanic-flask-app:
+  #   container_name: titanic-flask-app
+  #   image: titanic-flask-app
+  #   build: .
+  #   ports:
+  #     - 5000:5000
+  #   depends_on:
+  #     titanic_db:
+  #       condition: service_healthy
